@@ -1,0 +1,116 @@
+/* START copy this style for the common part
+(header - social, logo, search and nav)*/
+* {
+    box-sizing: border-box;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.top-area {
+    background-color: #efedea;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.fa-brands {
+    padding-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+i {
+    color: #416ca6;
+}
+
+.nav {
+    padding-bottom: 20px;
+}
+.nav-link {
+    color: #416ca6;
+}
+/* END copy this style for the common part
+(header - social, logo, search and nav) */
+
+.main {
+    height: 960px;
+    border-style: dashed;
+    border-color: #8c480d;
+}
+
+@font-face {
+    font-family:'CandyCane' ;
+    src: url('/FONTS/transfonter.org-20240103-160555/CandyCanePersonalUse-Regular.eot'); /*IE9 COMPAT MODES*/
+    src: url('/FONTS/transfonter.org-20240103-160555/CandyCanePersonalUse-Regular.svg#svgFontName') format('svg'); /*Legacy iOS*/
+    src: url('/FONTS/transfonter.org-20240103-160555/CandyCanePersonalUse-Regular.ttf') format('truetype'); /*Safari, Android, iOS*/
+    src: url('/FONTS/transfonter.org-20240103-160555/CandyCanePersonalUse-Regular.woff') format('woff'); /*Pretty Modern Browsers*/
+    src: url('/FONTS/transfonter.org-20240103-160555/CandyCanePersonalUse-Regular.woff2') format('woff2'); /*Super Modern Browsers*/
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap; 
+}
+
+/* If the screen size is 1200px wide or more, set the font-size to 80px */
+@media (min-width: 1200px) {
+    .responsive-website-name {
+      font-size: 100px;
+    }
+  }
+  /* If the screen size is smaller than 1200px, set the font-size to 80px */
+  @media (max-width: 1199.98px) {
+    .responsive-website-name {
+      font-size: 50px;
+    }
+  }
+
+.container {
+ 
+}
+
+.container-fluid {
+
+}
+
+#fixed-sidebar {
+    border-color: #8c480d;
+}
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: #efedea;
+}
+
+.recipe-page-content,.recipe-title {
+    color: #c22132;
+    font-family: 'Candy Cane', 'Lexend Deca', sans-serif;
+}
+
+.content-above-image {
+    color: black;
+}
+
+.zoom {
+    padding: 50px;
+   
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: 0 auto;
+  }
+
+.zoom img {
+    border-color: #25762c;
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+  
+  .zoom:hover img {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+
+.hidden {
+    display: none;
+}

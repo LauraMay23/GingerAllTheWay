@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Candy Cane Personal Use';
+    src: url('CandyCanePersonalUse-Regular.eot');
+    src: url('CandyCanePersonalUse-Regular.eot?#iefix') format('embedded-opentype'),
+        url('CandyCanePersonalUse-Regular.woff2') format('woff2'),
+        url('CandyCanePersonalUse-Regular.woff') format('woff'),
+        url('CandyCanePersonalUse-Regular.ttf') format('truetype'),
+        url('CandyCanePersonalUse-Regular.svg#CandyCanePersonalUse-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

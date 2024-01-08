@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Christmas baking for kids project ">
+    <meta name="keywords" content="HTML, CSS, JavaScript, Bootstrap">
+    <meta name="author" content="Cristina Pat">
+
+    <!--Lexend Deca font links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,600&display=swap" rel="stylesheet">
+
+    <!--Bootstrap import-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!--Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/07306e2873.js" crossorigin="anonymous"></script>
+
+    <!--the particular style-->
+    <link href="css/main.css" rel="stylesheet">
+     <!--LINK TO FONTAWESOME CSS-->
+     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+     <!--LINK TO GOOGLE FONTS CSS-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+     <!--LINK TO MY EXTERNAL CSS-->
+     <link href="/CSS/recipePage.css" rel="stylesheet">
+     <!--lINK TO MY EXTERNAL JS-->
+     <link href="/calculator test/recipecalculator.js" rel="script"> 
+
+    <title>GingerAllTheWay</title>
+</head>
+
+<body>
+    <div class="container-fluid p-0 top-area">
+        <div class="container d-flex justify-content-between  top-area-inear">
+            <div class="p-2">
+                Get in touch -
+                <a href="mailto:cristina@thepatfamily.co.uk">recipe@GingerAllTheWay.co.uk</a>
+
+            </div>
+
+            <div class="p-2">
+                <a href="https://www.facebook.com/ccrecipes">
+                    <!-- Semantic Web Fonts-based icons, for accesibility -->
+                    <i aria-hidden="true" class="fa-brands fa-square-facebook fa-lg"></i>
+                    <span class="fa-sr-only">A Christmas cookie/candy recipes Facebook account</span>
+                </a>
+
+                <a href="https://www.instagram.com/christmas___cookies/">
+                    <i aria-hidden="true" class="fa-brands fa-square-instagram fa-lg"></i>
+                    <span class="fa-sr-only">An Christmas cookie recipes Instagram account with </span>
+                </a>
+
+                <a href="https://www.pinterest.co.uk/talacooking/christmas/">
+                    <i aria-hidden="true" class="fa-brands fa-square-pinterest fa-lg"></i>
+                    <span class="fa-sr-only">An Christmas cookies recipes Pinterest account with </span>
+                </a>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="container">
+
+        <div class="logo-area pb-4">
+            <div class="container-fluid d-grid gap-3 align-items-center" style="grid-template-columns: 2fr 1fr;">
+                <div class=" d-flex align-content-start logo">
+                    <div>
+                        <img src="/imagesRecipePage/Ginger all the way_logo.png" width="145" height="145">
+                    </div>
+                </div>
+
+                <div class="d-flex align-items-center">
+                    <form class="w-100 me-3" role="search">
+                        <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+                    </form>
+
+                    <div class="flex-shrink-0 dropdown">
+                        <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <img src="/imagesRecipePage/laura_user_avatar.PNG" alt="user" width="32" height="32"
+                                class="user-photo">
+                        </a>
+                        <ul class="dropdown-menu text-small shadow">
+                            <li><a class="dropdown-item" href="#">New recipe...</a></li>
+                            <li><a class="dropdown-item" href="#">Settings</a></li>
+                            <li><a class="dropdown-item" href="#">Profile</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Sign out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <ul class="nav">
+            <li class="nav-item active ">
+                <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">Recipes</a>
+                <ul class="dropdown-menu">
+                    <!--Laura's page-->
+                    <li><a class="dropdown-item" href="/recipePage.html">Recipe single</a></li>
+                    <!--Under construction-->
+                    <li><a class="dropdown-item" href="#">All recipes</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-expanded="false">Shop</a>
+                <ul class="dropdown-menu">
+                    <!--Princess' page-->
+                    <li><a class="dropdown-item" href="#">Shop list</a></li>
+                    <!--Fiona's page-->
+                    <li><a class="dropdown-item" href="#">Shop single</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">About us</a>
+            </li>
+        </ul>
+    </div>
+    <!--CONTAINER FOR MAIN PAGE CONTENT (WITHIN A MAIN ELEMENT)-->
+        <div class=" container main container-fluid">
+            <div class = "row py-3">
+                <div class="col-3 order-2 d-flex align-self-start" id="fixed-sidebar" data-area="main-sidebar">
+                    <div class="flex-column bg-dark text-white p-1>
+                        <a href="#" class="nav-link">Browse the ingredients on  our store!</a>
+                    </div>    
+                </div>
+                <div class="col" id="main">
+                    <div class="recipe recipe m-auto recipe-single item-layout">
+                        <div class="recipe-page-content">
+                            <!--RECIPE TITLE-->
+                            <h1 itemprop="name" class="recipe-title">Christmas cookies</h1>
+                            <!--END OF RECIPE TITLE-->
+                        </div>
+                        <!--CONTENT ABOVE RECIPE AND MAIN IMAGE-->
+                        <div class="content-above-image">
+                            <div class="content-above-image" id="author-image">
+                                <img itemprop="image" src="/imagesRecipePage/Ginger all the way_img.png" width="55" height="55" alt="Author Image" class="avatar">
+                            </div>
+                            <div class="text" id="info-author-date">
+                                <a itemprop="author" class="info-author-link" href="#">Laura Lees</a>
+                                    <p itemprop="dateCreated" class="entry-date updated">23 December, 2023</p>
+                            </div>
+                            <!--LINKS TO SOCIALS-->
+                            <div class="content-above-image" id="info-social-share">
+                                <div class="social-share m-auto">
+                                    <span class="social-title">Share:</span>
+                                        <ul class="social-title-list">
+                                            <li class="facebook-share">
+                                                <a itemprop="url" class="share-link" href="#" onclick="window.open(https://m.facebook.com/sharer.php?u=)"> <!--INSERT URL OF PAGE HERE-->
+                                                    <span class="social-network-text">Facebook</span>
+                                                </a>
+                                            <li class="twitter-share">
+                                                <a itemprop="url" class="share-link" href="#" onclick="window.open(https:)"> <!--INSERT twitter share URL OF PAGE HERE-->
+                                                    <span class="social-network-text">Twitter</span>
+                                                </a>
+                                            </li>
+                                            <li class="linkedin-share">
+                                                <a itemprop="url" class="share-link" href="#" onclick="window.open(https:)"> <!--INSERT linkedin URL OF PAGE HERE-->
+                                                    <span class="social-network-text">LinkedIn</span>
+                                                </a>
+                                            </li>
+                                            <li class="pinterest-share">
+                                                <a itemprop="url" class="share-link" href="#" onclick="window.open(https:)"> <!--INSERT pinterest URL OF PAGE HERE-->
+                                                    <span class="social-network-text">Pinterest</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                </div>
+                            </div>
+                            <!--RECIPE MAIN IMAGE-->
+                            <div class="recipe-main-image container zoom">
+                                <a itemprop="url" href="/recipePage.html"> 
+                                <!--RECIPE MIAGE-->
+                                    <img class="recipe-image img-fluid align-self-start max-width:100 height:auto mr-3" src="/imagesRecipePage/baking sheet cookies.png" alt="illustration of a baking sheet full of cookies" width="350" height="300"decoding="async" fetchpriority="high">
+                                </a>
+                            </div></br>
+                            <div class="content-under-image">
+                                <span class="m-title-lines"></span>
+                                    <p class="recipe-prep-time">
+                                        <svg class="svg-time-clock" xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M464 256A208 208 0 1 1 48 256a208 208 0 1 1 416 0zM0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM232 120V256c0 8 4 15.5 10.7 20l96 64c11 7.4 25.9 4.4 33.3-6.7s4.4-25.9-6.7-33.3L280 243.2V120c0-13.3-10.7-24-24-24s-24 10.7-24 24z"/></svg>
+                                         60 Minutes
+                                    </p>
+                                    <p class="recipe-difficulty">
+                                        <svg class="svg-difficulty" xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M323.8 34.8c-38.2-10.9-78.1 11.2-89 49.4l-5.7 20c-3.7 13-10.4 25-19.5 35l-51.3 56.4c-8.9 9.8-8.2 25 1.6 33.9s25 8.2 33.9-1.6l51.3-56.4c14.1-15.5 24.4-34 30.1-54.1l5.7-20c3.6-12.7 16.9-20.1 29.7-16.5s20.1 16.9 16.5 29.7l-5.7 20c-5.7 19.9-14.7 38.7-26.6 55.5c-5.2 7.3-5.8 16.9-1.7 24.9s12.3 13 21.3 13L448 224c8.8 0 16 7.2 16 16c0 6.8-4.3 12.7-10.4 15c-7.4 2.8-13 9-14.9 16.7s.1 15.8 5.3 21.7c2.5 2.8 4 6.5 4 10.6c0 7.8-5.6 14.3-13 15.7c-8.2 1.6-15.1 7.3-18 15.2s-1.6 16.7 3.6 23.3c2.1 2.7 3.4 6.1 3.4 9.9c0 6.7-4.2 12.6-10.2 14.9c-11.5 4.5-17.7 16.9-14.4 28.8c.4 1.3 .6 2.8 .6 4.3c0 8.8-7.2 16-16 16H286.5c-12.6 0-25-3.7-35.5-10.7l-61.7-41.1c-11-7.4-25.9-4.4-33.3 6.7s-4.4 25.9 6.7 33.3l61.7 41.1c18.4 12.3 40 18.8 62.1 18.8H384c34.7 0 62.9-27.6 64-62c14.6-11.7 24-29.7 24-50c0-4.5-.5-8.8-1.3-13c15.4-11.7 25.3-30.2 25.3-51c0-6.5-1-12.8-2.8-18.7C504.8 273.7 512 257.7 512 240c0-35.3-28.6-64-64-64l-92.3 0c4.7-10.4 8.7-21.2 11.8-32.2l5.7-20c10.9-38.2-11.2-78.1-49.4-89zM32 192c-17.7 0-32 14.3-32 32V448c0 17.7 14.3 32 32 32H96c17.7 0 32-14.3 32-32V224c0-17.7-14.3-32-32-32H32z"/></svg>
+                                         Super Easy
+                                    </p>
+                                    <p class="recipe-serves">
+                                        <svg class="svg-serves" xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M416 0C400 0 288 32 288 176V288c0 35.3 28.7 64 64 64h32V480c0 17.7 14.3 32 32 32s32-14.3 32-32V352 240 32c0-17.7-14.3-32-32-32zM64 16C64 7.8 57.9 1 49.7 .1S34.2 4.6 32.4 12.5L2.1 148.8C.7 155.1 0 161.5 0 167.9c0 45.9 35.1 83.6 80 87.7V480c0 17.7 14.3 32 32 32s32-14.3 32-32V255.6c44.9-4.1 80-41.8 80-87.7c0-6.4-.7-12.8-2.1-19.1L191.6 12.5c-1.8-8-9.3-13.3-17.4-12.4S160 7.8 160 16V150.2c0 5.4-4.4 9.8-9.8 9.8c-5.1 0-9.3-3.9-9.8-9L127.9 14.6C127.2 6.3 120.3 0 112 0s-15.2 6.3-15.9 14.6L83.7 151c-.5 5.1-4.7 9-9.8 9c-5.4 0-9.8-4.4-9.8-9.8V16zm48.3 152l-.3 0-.3 0 .3-.7 .3 .7z"/></svg>
+                                         35 cookies
+                                    </p>
+                                    <p class="info-category">
+                                        <svg class="recipe-category" xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M257.5 27.6c-.8-5.4-4.9-9.8-10.3-10.6v0c-22.1-3.1-44.6 .9-64.4 11.4l-74 39.5C89.1 78.4 73.2 94.9 63.4 115L26.7 190.6c-9.8 20.1-13 42.9-9.1 64.9l14.5 82.8c3.9 22.1 14.6 42.3 30.7 57.9l60.3 58.4c16.1 15.6 36.6 25.6 58.7 28.7l83 11.7c22.1 3.1 44.6-.9 64.4-11.4l74-39.5c19.7-10.5 35.6-27 45.4-47.2l36.7-75.5c9.8-20.1 13-42.9 9.1-64.9v0c-.9-5.3-5.3-9.3-10.6-10.1c-51.5-8.2-92.8-47.1-104.5-97.4c-1.8-7.6-8-13.4-15.7-14.6c-54.6-8.7-97.7-52-106.2-106.8zM208 144a32 32 0 1 1 0 64 32 32 0 1 1 0-64zM144 336a32 32 0 1 1 64 0 32 32 0 1 1 -64 0zm224-64a32 32 0 1 1 0 64 32 32 0 1 1 0-64z"/></svg>
+                                         Dessert
+                                    </p>
+                            </div>
+                            <div class="content-under image">
+                                <!--RECIPE REVIEWS/STAR RATING-->
+                                    <div id="recipe-review">
+                                        <h6 class="reviews-label">Star Rating</h6>
+                                            <span class="stars">
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" height="16" width="18" viewBox="0 0 576 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M316.9 18C311.6 7 300.4 0 288.1 0s-23.4 7-28.8 18L195 150.3 51.4 171.5c-12 1.8-22 10.2-25.7 21.7s-.7 24.2 7.9 32.7L137.8 329 113.2 474.7c-2 12 3 24.2 12.9 31.3s23 8 33.8 2.3l128.3-68.5 128.3 68.5c10.8 5.7 23.9 4.9 33.8-2.3s14.9-19.3 12.9-31.3L438.5 329 542.7 225.9c8.6-8.5 11.7-21.2 7.9-32.7s-13.7-19.9-25.7-21.7L381.2 150.3 316.9 18z"/></svg>
+                                            </span>
+                                    </div>
+                            </div>
+                            <!--RECIPE SUMMARY-->
+                            <div class="recipe-summary">
+                                <p>These vanilla cookies are very simple to make. Cut them into Christmas shapes and decorate them with icing and sugar sprinkles.</p>
+                            </div>
+                            <!--INGREDIENTS SECTION-->
+                            <div class="ingredients-section">
+                                <h2 class="title">
+                                    <span>Ingredients:</span>
+                                </h2>
+                            <!--INGREDIENTS-->
+                            <table id="ingredients">
+                                <tbody> <!--CODE TO ADD CIRCLE ICON TO BEGINNING OF EACH LIST ITEM WHICH BECOMES A CHECKMARK AND STRIKESTHROUGH THE CORRESPONDING INGREDIENT TEXT WHEN CLICKED-->
+                                        <tr class="ingredients-items .ingredients-completed">
+                                            <td class="completed">
+                                                <span class="icon_check">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="14" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z"/></svg>
+                                                </span>
+                                            </td>
+                                            <td class="ingredient ingredients_item">
+                                                <span class="ingredient_quantity">125</span>
+                                                <span class="ingredient_unit">g</span>
+                                                <span class="ingredient_label">of butter, softened</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="ingredients ingredients-incomplete">
+                                            <td class="incomplete">
+                                                <span class="icon_circle-empty">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"/></svg>
+                                                </span>
+                                            </td>
+                                            <td class="ingredient ingredients_item">
+                                                <span class="ingredient_quantity">50</span>
+                                                <span class="ingredient_unit--single hidden">g</span>
+                                                <span class="ingredient_unit--plural">g</span>
+                                                <span class="ingredient_label">of icing sugar</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="ingredients-items .ingredients-incomplete">
+                                            <td class="incomplete">
+                                                <span class="icon_circle-empty">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"/></svg>
+                                                </span>
+                                            </td>
+                                            <td class="ingredient ingredients_item">
+                                                <span class="ingredient_quantity">1</span>
+                                                <span class="ingredient_unit--single hidden"> medium egg</span>
+                                                <span class="ingredient_unit--plural">medium eggs</span>
+                                                <span class="ingredient_label"></span>
+                                            </td>
+                                        </tr>
+                                        <tr class="ingredients-items .ingredients-incomplete">
+                                            <td class="incomplete">
+                                                <span class="icon_circle-empty">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"/></svg>
+                                                </span>
+                                            </td>
+                                            <td class="ingredient ingredients_item">
+                                                <span class="ingredient_quantity">1</span> 
+                                                <span class="ingredients_unit--single hidden">teaspoon</span>
+                                                <span class="ingredients_unit--plural">teaspoons</span>
+                                                <span class="ingredient_label"> of vanilla extract</span>
+                                            </td>
+                                        </tr>
+                                        <tr class="ingredients-items .ingredients-incomplete">
+                                            <td class="incomplete">
+                                                <span class="icon_circle-empty">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"/></svg>
+                                                </span>
+                                            </td>
+                                            <td class="ingredient ingredients_item">
+                                                <span class="ingredient_quantity">225</span>
+                                                <span class="ingredients_unit--single hidden">g</span>
+                                                <span class="ingredients_unit--plural">g</span>
+                                                <span class="ingredient_label"> of plain flour</span>
+                                            </td>
+                                        </tr>
+                                </tbody>
+                            </table></br>
+                            <h4 class="additional-ingredients">For the icing:</h4>
+                            <table>
+                                <tr class="ingredients-items .ingredients-incomplete">
+                                    <td class="incomplete">
+                                        <span class="icon_circle-empty">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"/></svg>
+                                        </span>
+                                    </td>
+                                    <td class="ingredient ingredients_item">
+                                        <span class="ingredient_quantity">225</span>
+                                        <span class="ingredients_unit--single hidden">g</span>
+                                        <span class="ingredients_unit--plural">g</span>
+                                        <span class="ingredient_label"> of icing sugar</span>
+                                    </td>
+                                </tr>
+                                <tr class="ingredients-items .ingredients-incomplete">
+                                    <td class="incomplete">
+                                        <span class="icon_circle-empty">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="16" width="16" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M464 256A208 208 0 1 0 48 256a208 208 0 1 0 416 0zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256z"/></svg>
+                                        </span>
+                                    </td>
+                                    <td class="ingredient ingredients_item">
+                                        <span class="ingredient_quantity">2</span>
+                                        <span class="ingredient_unit">tbsp</span>
+                                        <span class="ingredient_label"> of warm water</span>
+                                    </td>
+                                </tr>
+                            </table></br>
+                            </div>
+                            <!--CODE TO CHANGE NO OF INGREDIENTS BASED ON THE SERVING SIZE THE USER SELECTS VIA TEXT INPUT-->
+                            <div class="serve_container">
+                                <p>
+                                    <span>1 serving makes 35 cookies</span><br>
+                                </p>
+                                <form method ="POST" action="/recipePage.html">
+                                    <label for ="servinginput">
+                                    Type in your required serving size (in whole numbers):
+                                        <input type="text" name="servinginput" id="servinginput" inputmode="numeric" size="3" required minlength="1" maxlength="10" control-id="ControlID-1">
+                                    </label>   
+                                    <input type="button" value="Calculate new serving size" onclick="calculateServingSize()" control-id="ControlID-2">                                                             
+                                    <p> Amount of cookies =                                                                                                                                                                                                                                                                                                                                                                               
+                                        <span id="cookies"></span>
+                                    </p>
+                                    <p><h3>Updated ingredients list:</h3></p>
+                                        <ul>
+                                            <li>Softened butter:                                                                                                                                                          
+                                                <span id="butter"></span>
+                                            </li></br>                                                               
+                                            <li>Icing sugar:
+                                                <span id="icingsugarcookie"></span>
+                                            </li></br>                                                                                                                                       
+                                            <li>Medium eggs:
+                                                <span id="eggs"></span>
+                                            </li></br>                    
+                                                <li>Vanilla extract:
+                                                <span id="vanillaextract"></span>
+                                            </li></br>               
+                                            <li>Plain flour
+                                                <span id="plainflour"></span>
+                                            </li></br>                                                  
+                                        </ul>                                                                       
+                                        <p><h4>For the icing:</h4></p>           
+                                            <ul>                                                                                                                                                                          
+                                                <li>Icing sugar
+                                                    <span id="icingsugaricing"></span>
+                                                </li></br>                     
+                                                <li> Warm water:    
+                                                    <span id="water"></span>
+                                                </li></br>
+                                            </ul>
+                                    </form>           
+                                </div>
+                                <div class="additional-recipe-info">
+                                    <h6 class="additional-ingredients">You will also need:</h6>
+                                    <ul>
+                                        <li> Some Christmas-shaped cookie cutters</li>
+                                        <li> Sugar sprinkles/hundreds and thousands to decorate</li>
+                                    </ul>
+                                    <p>
+                                        You could add different flavours to your cookies. Here are some suggestions. Leave out the vanilla and, at step 4, add: 
+                                        <ul>
+                                            <li>1 teaspoon of ground cardamom or cinnamon</li>
+                                            <li>2 teaspoons of ground ginger or orange zest</li>
+                                        </ul>
+                                        <a><strong>NOTE:</strong> These cookies will keep for up to 5 days in an airtight container.</a>
+                                    </p>
+                                </div>
+                                <div class="nutritions-info">
+                                    <p><em><strong>Nutritional Information:</strong> You can replace the butter with dairy-free spread.</em></p>
+                                </div>
+                                <!--DIRECTIONS SECTION-->
+                                <div class="directions container">
+                                    <h2 class="title">
+                                        <span>Directions:</span>
+                                    </h2>
+                                    <ol class="list-unstyled">
+                                        <li class="media my-4">
+                                            <img class="img-fluid align-self-start max-width:100 height:auto mr-3" src="/imagesRecipePage/butter.png" alt="Illustration of butter" width="50px" height="50px">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 mb-1">Step 1</h5>   
+                                                    <p>First, grease two baking trays. Then, put the butter in a large bowl. Beat it until it is smooth. Use a sieve to sift in the icing sugar. Beat again.</p> 
+                                                </div>   
+                                        </li>    
+                                        <li class="media my-4">
+                                            <img class="img-fluid align-self-start max-width:100 height:auto mr-3" src="imagesRecipePage/egg.png" alt="Illustration of an egg" width="40px" height="40px">   
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 mb-1">Step 2</h5>
+                                                    <p>Break the egg into a small bowl. Add the vanilla extract and beat well with a fork.</p>
+                                                </div>
+                                        </li>
+                                        <li class="media my-4">
+                                            <img class="img-fluid align-self-start max-width:50 height:10px mr-3"  src="/imagesRecipePage/whip.png" alt="Illustration of a whisk" width="30px" height="20px">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 mb-1">Step 3</h5>
+                                                    <p>Add the eggy mixture to the large bowl, a little at a time. Beat well between each addition.</p>
+                                                </div>
+                                        </li>
+                                        <li class="media my-4">
+                                            <img class="img-fluid align-self-start max-width:100 height:auto mr-3" src="imagesRecipePage/hands.png" alt="Illustration of hands kneading" width="50px" height="70px">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 mb-1">Step 4</h5>
+                                                    <p>Add the flour and stir the mixture until it starts to form a dough. Then, use your hands to mix the dough and squeeze it into a ball.</p>
+                                                </div>
+                                        </li>
+                                        <li class="media my-4">
+                                            <img class="img-fluid align-self-start max-width:100 height:auto" src="/imagesRecipePage/chef hat.png" alt="Illustration of chef hat" width="50px" height="50px">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 mb-1">Step 5</h5>
+                                                    <p>Wrap the dough in plastic foodwrap and put it in the fridge for 30 minutes. Heat the oven to 180&deg;C , 350&deg;F or Gas Mark 4.</p>
+                                                </div>
+                                        </li>
+                                        <li class="media my-4">
+                                            <img class="img-fluid align-self-start max-width:100 height:auto mr-3" src="/imagesRecipePage/rolling pin.png" alt="Illustration of rolling pin" width="70px" height="70px">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 mb-1">Step 6</h5>
+                                                    <p>Unwrap the dough and put it onto a clean surface. Dust the surface and a rolling pin with flour. Roll it out until it is just thinner than your little finger. Use the cutters to cut out lots of shapes.</p>
+                                                </div>
+                                        </li>
+                                        <li class="media my-4">
+                                            <img class="img-fluid align-self-start max-width:100 height:auto mr-3" src="imagesRecipePage/cookie-heart.png" alt="Illustration of a heart-shaped cookie" width="50px" height="50px">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 mb-1">Step 7</h5>
+                                                    <p>Put the cookies onto the trays. Squeeze the scraps together and roll them out again. Cut out more shapes and put them on the trays.</p>
+                                                </div>
+                                        </li>                                       
+                                        <li class="media my-4">
+                                            <img class="img-fluid align-self-start max-width:100 height:auto mr-3" src="imagesRecipePage/oven grill.png" alt="Illustration of a metal oven grill/wire cooling rack" width="50px" height="50px">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 mb-1">Step 8</h5>
+                                                    <p>Bake for 10-12 minutes until golden. Leave on the trays for 5 minutes, then put on a wire rack to cool.</p>
+                                                </div>
+                                        </li>
+                                        <li class="media my-4">
+                                            <img class="img-fluid align-self-start max-width:100 height:auto mr-3" src="imagesRecipePage/sugar (n).png" alt="Illustration of a bag of sugar" width="50px" height="50px">
+                                                <div class="media-body">
+                                                    <h5 class="mt-0 mb-1">Step 9</h5>
+                                                    <p>For the icing, soft the icing sugar into a bowl and mix it with the warm water. Spread onto each cookie with a blunt knife. Scatter sugar sprinkles on top.</p>
+                                                </div>   
+                                        </li>
+                                    </ol>
+                                </div>
+                                <div class="content-bottom">
+                                    
+                                </div>
+            </div>
+                </div>
+                    </div>               
+                                </div>
+                                
+                </main>
+                
+                
+            </div>
+        </div>    
+    <!--END OF CONTAINER FOR MAIN PAGE CONTENT-->
+    <!--SUBSCRIBE FORM-->
+    <div class="subscribe container"
+        <form action="action_page.php">
+            <div class="subscribeimg">
+                <img class="subPhoto img-fluid img-thumbnail" src="imagesRecipePage/christmasBackground.png" alt="A table full of Christmas desserts" width="100px" height="300px">
+            </div>
+            <div class="container pt-3">
+                <h4>Subscribe to GingerAllTheWay news</h4>
+                <p>
+                "Get updates on the latest news and more from GingerAllTheWay straight to your inbox."
+                </p>
+                <label for="email"></label>
+                <input type="text" id="input-text" placeholder="Your email.." name="email" required>
+                <button type="submit" class="subscribebtn">Subscribe</button>
+                </br>
+                <input type="checkbox" id="consent" name="consent">
+                <label for="consent">I consent to receiving emails and personalised ads.</label>
+            </div>
+        </form>
+    </div>
+
+    <div class="container-fluid footer-background">
+        <!--Footer-->
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    <img src="/imagesRecipePage/Ginger all the way_img.png" width="30" height="30">
+                </a>
+                <span class="mb-3 mb-md-0 text-body-secondary">Laura Lees © 2024 GingerAllTheWay, Ltd.</span>
+            </div>
+
+            <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a href="https://www.facebook.com/ccrecipes">
+                        <!-- Semantic Web Fonts-based icons, for accesibility -->
+                        <i aria-hidden="true" class="fa-brands fa-square-facebook fa-lg"></i>
+                        <span class="fa-sr-only">A Christmas cookie/candy recipes Facebook account</span>
+                    </a></li>
+                <li class="ms-3"><a href="https://www.instagram.com/christmas___cookies/">
+                        <i aria-hidden="true" class="fa-brands fa-square-instagram fa-lg"></i>
+                        <span class="fa-sr-only">An Christmas cookie recipes Instagram account with </span>
+                    </a></li>
+                <li class="ms-3"><a href="https://www.pinterest.co.uk/talacooking/christmas/">
+                        <i aria-hidden="true" class="fa-brands fa-square-pinterest fa-lg"></i>
+                        <span class="fa-sr-only">An Christmas cookies recipes Pinterest account with </span>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
