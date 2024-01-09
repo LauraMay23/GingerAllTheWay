@@ -2,7 +2,7 @@
 (header - social, logo, search and nav)*/
 * {
     box-sizing: border-box;
-    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;!important
 }
 
 .top-area {
@@ -34,9 +34,18 @@ i {
 (header - social, logo, search and nav) */
 
 .main {
-    height: 960px;
+    height: auto; /*960px for common parts*/
     border-style: dashed;
     border-color: #8c480d;
+}
+
+.main-page-content {
+    justify-content:flex-start;
+    align-self: start;
+    float: left;
+    margin-right: 100px; /* Same as the width of the sidenav */
+    font-size: 18px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
 }
 
 @font-face {
@@ -51,58 +60,83 @@ i {
     font-display: swap; 
 }
 
-/* If the screen size is 1200px wide or more, set the font-size to 80px */
-@media (min-width: 1200px) {
-    .responsive-website-name {
-      font-size: 100px;
-    }
-  }
-  /* If the screen size is smaller than 1200px, set the font-size to 80px */
-  @media (max-width: 1199.98px) {
-    .responsive-website-name {
-      font-size: 50px;
-    }
+
+  @media screen and (max-height: 450px) {
+    #fixed-sidebar {padding-top: 10px;}
+    #fixed-sidebar a {font-size: 12px;}
   }
 
 .container {
- 
+    font-family: 'Lexend Deca', sans-serif;!important
 }
 
 .container-fluid {
-
+    font-family: 'Lexend Deca', sans-serif;!important
 }
 
-#fixed-sidebar {
-    border-color: #8c480d;
+#fixed-sidebar{
+    width:130;
+    height: auto;
+    position:fixed;
+    top: 20px;
+    right: 20px;
+    background-color: #8c480d;
+    overflow-x: hidden;
+    padding-left: 10px;
+    padding-right: 10px;
 }
+
+#fixed-sidebar a {
+    color: #efedea;
+}
+
+.hover {
+   
+}
+
+.col-2 {
+    background-image: url(/imagesRecipePage/White\ Blue\ Snowflake\ Pattern.png);
+    float: right;
+    justify-content:right;
+    align-self: flex-end;
+}
+
 
 body {
     font-family: 'Lexend Deca', sans-serif;
     background-color: #efedea;
 }
 
-.recipe-page-content,.recipe-title {
+#recipe-title, h1 {
     color: #c22132;
-    font-family: 'Candy Cane', 'Lexend Deca', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
 }
 
 .content-above-image {
     color: black;
 }
 
+.recipe-image {
+    width:auto;
+    height: auto;
+    float: left;
+    align-self: flex-start;
+}
+
 .zoom {
-    padding: 50px;
-   
-    width: 200px;
-    height: 200px;
+    padding: 20px;
+    width: 350px;
+    height: 350px;
     overflow: hidden;
     margin: 0 auto;
+   
   }
 
 .zoom img {
     border-color: #25762c;
     width: 100%;
     transition: 0.5s all ease-in-out;
+   
 }
   
   .zoom:hover img {
@@ -110,7 +144,3 @@ body {
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5); 
   }
-
-.hidden {
-    display: none;
-}
